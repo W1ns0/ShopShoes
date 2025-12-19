@@ -110,7 +110,7 @@
             // lbLogin
             // 
             lbLogin.AutoSize = true;
-            lbLogin.Location = new Point(137, 21);
+            lbLogin.Location = new Point(137, 14);
             lbLogin.Name = "lbLogin";
             lbLogin.Size = new Size(52, 19);
             lbLogin.TabIndex = 1;
