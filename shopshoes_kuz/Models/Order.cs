@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace shopshoes_kuz;
+﻿namespace shopshoes_kuz;
 
 public partial class Order
 {
@@ -19,11 +16,11 @@ public partial class Order
 
     public short IdOrderStatus { get; set; }
 
-    public virtual AddressesOfDeliveryPoint IdAddressOfDeliveryPointNavigation { get; set; } = null!;
+    public virtual AddressesOfDeliveryPoint AddressesOfDeliveryPoint { get; set; } = null!;
 
-    public virtual OrderStatus IdOrderStatusNavigation { get; set; } = null!;
+    public virtual OrderStatus OrderStatus { get; set; } = null!;
 
-    public virtual User IdUserNavigation { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
 
     public virtual ICollection<ProductsOrder> ProductsOrders { get; set; } = new List<ProductsOrder>();
 }

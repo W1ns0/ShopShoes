@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace shopshoes_kuz;
+﻿namespace shopshoes_kuz;
 
 public partial class UnitOfMeasurement
 {

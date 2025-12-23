@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace shopshoes_kuz;
+﻿namespace shopshoes_kuz;
 
 public partial class Product
 {
@@ -29,15 +26,15 @@ public partial class Product
 
     public short IdUnitOfMeasurement { get; set; }
 
-    public virtual Manufacturer IdManufacturerNavigation { get; set; } = null!;
+    public virtual Manufacturer Manufacturer { get; set; } = null!;
 
-    public virtual ProductCategory IdProductCategoryNavigation { get; set; } = null!;
+    public virtual ProductCategory ProductCategory { get; set; } = null!;
 
-    public virtual ProductName IdProductNameNavigation { get; set; } = null!;
+    public virtual ProductName ProductName { get; set; } = null!;
 
-    public virtual Supplier IdSupplierNavigation { get; set; } = null!;
+    public virtual Supplier Supplier { get; set; } = null!;
 
-    public virtual UnitOfMeasurement IdUnitOfMeasurementNavigation { get; set; } = null!;
+    public virtual UnitOfMeasurement UnitOfMeasurement { get; set; } = null!;
 
     public virtual ICollection<ProductsOrder> ProductsOrders { get; set; } = new List<ProductsOrder>();
 }
