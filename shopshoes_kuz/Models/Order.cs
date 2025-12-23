@@ -1,24 +1,27 @@
-﻿namespace shopshoes_kuz;
+﻿using System;
+using System.Collections.Generic;
+
+namespace shopshoes_kuz.Models;
 
 public partial class Order
 {
     public int Id { get; set; }
 
-    public DateOnly DateOfOrder { get; set; }
+    public DateOnly OrderDate { get; set; }
 
-    public DateOnly? DateOfDelivery { get; set; }
+    public DateOnly DeliveryDate { get; set; }
 
-    public int IdAddressOfDeliveryPoint { get; set; }
+    public int IdDeliveryPoint { get; set; }
 
     public int IdUser { get; set; }
 
-    public short CodeToReceive { get; set; }
+    public int Code { get; set; }
 
-    public short IdOrderStatus { get; set; }
+    public int IdStatuses { get; set; }
 
-    public virtual AddressesOfDeliveryPoint AddressesOfDeliveryPoint { get; set; } = null!;
+    public virtual DeliveryPoint DeliveryPoint { get; set; } = null!;
 
-    public virtual OrderStatus OrderStatus { get; set; } = null!;
+    public virtual Status Status { get; set; } = null!;
 
     public virtual User User { get; set; } = null!;
 

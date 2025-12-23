@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace shopshoes_kuz.Models;
 
-public partial class Supplier
+public partial class ProductType
 {
     public int Id { get; set; }
 
-    public string SupplierName { get; set; } = null!;
+    public string ProdType { get; set; } = null!;
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }

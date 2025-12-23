@@ -1,10 +1,13 @@
-﻿namespace shopshoes_kuz;
+﻿using System;
+using System.Collections.Generic;
+
+namespace shopshoes_kuz.Models;
 
 public partial class Role
 {
-    public short Id { get; set; }
+    public int Id { get; set; }
 
-    public string Role1 { get; set; } = null!;
+    public string RoleName { get; set; } = null!;
 
     public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

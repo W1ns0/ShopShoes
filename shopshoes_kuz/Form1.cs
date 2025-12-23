@@ -1,3 +1,5 @@
+using shopshoes_kuz.Models;
+
 namespace shopshoes_kuz
 {
     public partial class FormLogin : Form
@@ -19,10 +21,10 @@ namespace shopshoes_kuz
                 return;
             }
 
-            using (var db = new DeShopShoesKuzContext())
+            using (var db = new ShopDbContext())
             {
                 var user = db.Users
-                    .Where(w => w.Login == txtLogin.Text && w.Password == txtPassword.Text)
+                    .Where(w => w.Login == txtLogin.Text && w.Pass == txtPassword.Text)
                     .FirstOrDefault();
 
                 if (user != null)
