@@ -129,7 +129,7 @@ namespace shopshoes_kuz
                 $"Описание товара: {product.Description}" + Environment.NewLine +
                 $"Производитель: {product.Manufacturer.ManufacturerName}" + Environment.NewLine +
                 $"Поставщик: {product.Supplier.SupplierName}" + Environment.NewLine +
-                $"Цена {priceText}" + Environment.NewLine +
+                $"{priceText}" + Environment.NewLine +
                 $"Еденица измерения: {product.Measure.MeasureName}" + Environment.NewLine +
                 $"Количестве на складе: {product.CointInStock}";
         }

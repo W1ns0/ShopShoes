@@ -136,6 +136,7 @@
             Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             Margin = new Padding(4);
             Name = "FormLogin";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Вход в систему";
             ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();
             plMain.ResumeLayout(false);
