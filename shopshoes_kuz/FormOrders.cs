@@ -83,5 +83,17 @@ namespace shopshoes_kuz
                 $"Статус заказа: {order.Status.StatusName}" + Environment.NewLine +
                 $"Адрес пункта выдачи: {order.DeliveryPoint.DeliveryAddress}";
         }
+
+        private void BtnBack_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
+
+        private void BtnLogut_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Abort;
+            this.Close();
+        }
     }
 }

@@ -27,7 +27,13 @@ namespace shopshoes_kuz
         {
             using (var formProducts = new FormProducts(CurrentUser, IsGuest))
             {
-                formProducts.ShowDialog();
+                var result = formProducts.ShowDialog();
+
+                if (result == DialogResult.Abort)
+                {
+                    this.DialogResult = DialogResult.Cancel;
+                    this.Close();
+                }
             }
         }
 
@@ -35,7 +41,13 @@ namespace shopshoes_kuz
         {
             using (var formOrders = new FormOrders(CurrentUser, IsGuest))
             {
-                formOrders.ShowDialog();
+                var result = formOrders.ShowDialog();
+
+                if (result == DialogResult.Abort)
+                {
+                    this.DialogResult = DialogResult.Cancel;
+                    this.Close();
+                }
             }
         }
     }

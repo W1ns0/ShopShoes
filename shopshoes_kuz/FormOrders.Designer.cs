@@ -32,7 +32,7 @@
             lblUserName = new Label();
             btnLogut = new Button();
             panelTop = new Panel();
-            button1 = new Button();
+            btnBack = new Button();
             dgvOrders = new DataGridView();
             panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvOrders).BeginInit();
@@ -61,10 +61,11 @@
             btnLogut.TabIndex = 5;
             btnLogut.Text = "Выход";
             btnLogut.UseVisualStyleBackColor = false;
+            btnLogut.Click += BtnLogut_Click;
             // 
             // panelTop
             // 
-            panelTop.Controls.Add(button1);
+            panelTop.Controls.Add(btnBack);
             panelTop.Controls.Add(lblUserName);
             panelTop.Controls.Add(btnLogut);
             panelTop.Dock = DockStyle.Top;
@@ -74,18 +75,19 @@
             panelTop.Size = new Size(964, 40);
             panelTop.TabIndex = 1;
             // 
-            // button1
+            // btnBack
             // 
-            button1.BackColor = Color.MediumSpringGreen;
-            button1.Dock = DockStyle.Left;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(0, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(150, 30);
-            button1.TabIndex = 7;
-            button1.Text = "Выход";
-            button1.UseVisualStyleBackColor = false;
+            btnBack.BackColor = Color.MediumSpringGreen;
+            btnBack.Dock = DockStyle.Left;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.Location = new Point(0, 0);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(150, 30);
+            btnBack.TabIndex = 7;
+            btnBack.Text = "Назад";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += BtnBack_Click;
             // 
             // dgvOrders
             // 
@@ -140,7 +142,7 @@
         private Label lblUserName;
         private Button btnLogut;
         private Panel panelTop;
-        private Button button1;
+        private Button btnBack;
         private DataGridView dgvOrders;
     }
 }
