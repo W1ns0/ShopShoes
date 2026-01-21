@@ -136,9 +136,14 @@ namespace shopshoes_kuz
 
         private Image LoadProductsImage(string photourl)
         {
-            if (!String.IsNullOrEmpty(photourl) && System.IO.File.Exists(photourl))
+            if (!string.IsNullOrEmpty(photourl))
             {
-                return Image.FromFile(photourl);
+                object obj = Resources.ResourceManager.GetObject(photourl);
+
+                if (obj != null)
+                {
+                    return (Image)obj;
+                }
             }
 
             return Resources.picture;

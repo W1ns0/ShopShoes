@@ -118,6 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\..\Documents\IS-23\Kuzevanov\123\10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
